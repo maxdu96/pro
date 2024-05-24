@@ -6,9 +6,9 @@
 >## App Introduction
 >>Developed by [Max DU](https://github.com/maxdu96)
 ###### Background: 
-Two years ago(in 2022), I can’t find some diary record app in mobile. Because I need the app can be add or edit with together. Even google or Microsoft documents can do the share, but not a real diary. 其次就是 icloud share folder and type in 備忘錄, in passing days, we use this method to do. But we though that if too many character on the page, it will so lag. So I get an Idea, why I can’t develop one for our?
+Two years ago (in 2022), I couldn’t find a diary record app on mobile that could be added or edited together. Even though Google or Microsoft documents can be shared, they are not real diaries. Secondly, we used the method of sharing a folder in iCloud and typing in notes. However, we found that if there were too many characters on the page, it would lag. So, I got an idea, why can’t I develop one for us?
 
-And here is my app. We have been release the app on 01/2023 version 1. Since the app will connect google firebase, it has a few limit, if over then will be 收錢. So for now, I don’t push the app for public.
+And here is my app. We released the app in January 2023 as version 1. Since the app connects to Google Firebase, it has a few limits, and if it exceeds them, it will cost money. So for now, I haven’t pushed the app for public use.
 
 There is some features for the app
 

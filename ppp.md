@@ -8,9 +8,9 @@
 ###### Background: 
 Two years ago (in 2022), I couldn’t find a diary record app on mobile that could be added or edited together. Even though Google or Microsoft documents can be shared, they are not real diaries. Secondly, we used the method of sharing a folder in iCloud and typing in notes. However, we found that if there were too many characters on the page, it would lag. So, I got an idea, why can’t I develop one for us?
 
-And here is my app. We released the app in January 2023 as version 1.0. Since the app connects to Google Firebase, it has a few limits, and if it exceeds them, it will cost money. So for now, I haven’t pushed the app for public use.
-
-There is some features for the app
+<img src = "/Image/git_first.jpg" />
+<img src = "/Image/git_version1.0.jpg" />
+And here is my app(Project Created on Sep 2023). We released the app in Dec 2023 as version 1.0. Since the app connects to Google Firebase, it has a few limits, and if it exceeds them, it will cost money. So for now, I haven’t pushed the app for public use.
 
 ###### Languages and technology:
 + Swift
@@ -20,9 +20,27 @@ There is some features for the app
     - Firestore Database
     - Functions
     - Messaging
++ GitHub Source Control
 
 ___
 
+*The app can make the couple record there are daily life together. All can access create or edit one diary. There are some features of the app:*
+
+##### Demo show:
+
+| Option  | Description |
+| ------ | :-----------: |
+| `Welcome page & App basic` | <img src="/Image/GIF/welcome.gif" width="30%" height="30%" /> <img src="/Image/GIF/main_3tab.gif" width="30%" height="30%" />|
+| `Diary create flow` | <img src="/Image/GIF/diary_typing.gif" width="30%" height="30%" />  <img src="/Image/GIF/day_range_selector.gif" width="30%" height="30%" /> <img src="/Image/GIF/diary_create.gif" width="30%" height="30%" />|
+| `Diary list show` | <img src="/Image/GIF/diary_read.gif" width="30%" height="30%" /> <img src="/Image/GIF/year_selector.gif" width="30%" height="30%" /> <img src="/Image/GIF/diary_canEdit.gif" width="30%" height="30%" />|
+| `Comment functions` | <img src="/Image/GIF/coment_typing.gif" width="30%" height="30%" /> <img src="/Image/GIF/coment_reaction.gif" width="30%" height="30%" />  <img src="/Image/GIF/comment_count.gif" width="30%" height="30%" /> |
+| `Diary status have remote notification` | <img src="/Image/GIF/notif_create.gif" width="30%" height="30%" /> <img src="/Image/GIF/notif_edit.gif" width="30%" height="30%"/> <img src="/Image/GIF/notif_reaction.gif" width="30%" height="30%" />|
+| `Profile all can be editable` | <img src="/Image/GIF/profile_canEdit.gif" width="30%" height="30%" /> |
+| `Reminder widget and deepLink` <br> If you ask me why I don't use the native "Reminder" feature of Apple, it's because the native "Reminder" updates a "completed task" on the left side, and it's very easy to accidentally click on it in the widget. ^ ^  | <img src="/Image/GIF/reminder_typing.gif" width="30%" height="30%" /> <img src="/Image/GIF/reminder_widget.gif" width="30%" height="30%" /> <img src="/Image/GIF/reminder_widgetColor.gif" width="30%" height="30%" /> <img src="/Image/GIF/reminder_widgetUpdate.gif" width="30%" height="30%" /> <img src="/Image/GIF/reminder_widgetDeeplink.gif" width="30%" height="30%" />|
+| `photo mark function` | <img src="/Image/GIF/photo_mark.gif" width="30%" height="30%" /> |
+| `Photo mark Widget` | Coming soon |
+
+___
 ##### REST API and FCM example (Node.Js):
 
 ``` js
@@ -77,25 +95,4 @@ app.post('/', async (req, res) => {
     };
     await admin.messaging().send(message);
 ```
-
-##### Demo show:
-
-| Option  | Description |
-| ------ | :-----------: |
-| `Welcome page` | <img src="/Image/GIF/welcome.gif" width="30%" height="30%" /> |
-| `show tab 123 and 321` | <img src="/Image/GIF/main_3tab.gif" width="30%" height="30%" /> |
-| `show typing and trash bin` | <img src="/Image/GIF/diary_typing.gif" width="30%" height="30%" /> |
-| `show select date` | <img src="/Image/GIF/day_range_selector.gif" width="30%" height="30%" /> |
-| `create a diary` | <img src="/Image/GIF/diary_create.gif" width="30%" height="30%" /> |
-| `show the list of diary incloud years selector` | <img src="/Image/GIF/diary_read.gif" width="30%" height="30%" /><br><img src="/Image/GIF/year_selector.gif" width="30%" height="30%" /> |
-| `show diary can edit and delete` | <img src="/Image/GIF/diary_canEdit.gif" width="30%" height="30%" /> |
-| `show can comments and detele and typing` | <img src="/Image/GIF/coment_typing.gif" width="30%" height="30%" /> |
-| `show can reaction ` | <img src="/Image/GIF/coment_reaction.gif" width="30%" height="30%" /> |
-| `diary status have notification` | <img src="/Image/GIF/notif_create.gif" width="50%" height="50%" /> <img src="/Image/GIF/notif_edit.gif" width="50%" height="50%"/> <img src="/Image/GIF/notif_reaction.gif" width="50%" height="50%" />|
-| `show profile all can editable` | <img src="/Image/GIF/profile_canEdit.gif" width="30%" height="30%" /> |
-| `show reminder and type and editable` | <img src="/Image/GIF/reminder_typing.gif" width="30%" height="30%" /> |
-| `reminder widget and dark mode support, deep link and update and delete` | <img src="/Image/GIF/reminder_widget.gif" width="30%" height="30%" /> <img src="/Image/GIF/reminder_widgetColor.gif" width="30%" height="30%" /> <img src="/Image/GIF/reminder_widgetUpdate.gif" width="30%" height="30%" /> <img src="/Image/GIF/reminder_widgetDeeplink.gif" width="30%" height="30%" />|
-| `photo mark function` | <img src="/Image/GIF/photo_mark.gif" width="30%" height="30%" /> |
-
-
 

@@ -3,18 +3,18 @@
 <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
 
 <img src="/giphy.gif"/> -->
->## App Introduction
+># App Introduction
 >>Developed by [Max DU](https://github.com/maxdu96)
-###### Background: 
+#### Background: 
 Two years ago (in 2022), I couldn’t find a diary record app on mobile that could be added or edited together. Even though Google or Microsoft documents can be shared, they are not real diaries. Secondly, we used the method of sharing a folder in iCloud and typing in notes. However, we found that if there were too many characters on the page, it would lag. So, I got an idea, why can’t I develop one for us?
 
 <img src = "/Image/git_first.jpg" />
 <img src = "/Image/git_version1.0.jpg" />
-And here is my app(Project Created on Sep 2023). We released the app in Dec 2023 as version 1.0. Since the app connects to Google Firebase, it has a few limits, and if it exceeds them, it will cost money. So for now, I haven’t pushed the app for public use.
+And here is my app(Project Created on Sep 2023). We released the app in Dec 2023 as version 1.0. 
 
-###### Languages and technology:
+#### Languages and technology:
 + Swift
-+ Node.Js
++ Node.Js 18
 + Google Firsbase 
     - Authentication 
     - Firestore Database
@@ -22,9 +22,16 @@ And here is my app(Project Created on Sep 2023). We released the app in Dec 2023
     - Messaging
 + GitHub Source Control
 
+#### App Status
+It is expected to be launched on the App Store in October 2024 and already has a new UI.
+
 ___
 
-*The app can make the couple record there are daily life together. All can access create or edit one diary. There are some features of the app:*
+*The app can make the couple record there are daily life together. All can access create or edit one diary. Or maybe say, people often forget what they do on a day. So when they wanna remember that day, they can open the app to check, can let them happy or xxx one more time. And the couple for two both have responsibility to do this things*
+
+___
+
+#### There are some features of the app:
 
 ##### Demo show:
 
@@ -38,7 +45,7 @@ ___
 | `Profile all can be editable` | <img src="/Image/GIF/profile_canEdit.gif" width="30%" height="30%" /> |
 | `Reminder widget and deepLink` <br> If you ask me why I don't use the native "Reminder" feature of Apple, it's because the native "Reminder" updates a "completed task" on the left side, and it's very easy to accidentally click on it in the widget. ^ ^  | <img src="/Image/GIF/reminder_typing.gif" width="30%" height="30%" /> <img src="/Image/GIF/reminder_widget.gif" width="30%" height="30%" /> <img src="/Image/GIF/reminder_widgetColor.gif" width="30%" height="30%" /> <img src="/Image/GIF/reminder_widgetUpdate.gif" width="30%" height="30%" /> <img src="/Image/GIF/reminder_widgetDeeplink.gif" width="30%" height="30%" />|
 | `photo mark function` | <img src="/Image/GIF/photo_mark.gif" width="30%" height="30%" /> |
-| `Photo mark Widget` | Coming soon |
+<!-- | `Photo mark Widget` | Coming soon | -->
 
 ___
 ##### REST API and FCM example (Node.Js):
